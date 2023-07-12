@@ -1,0 +1,343 @@
+/* spacing on all sections */
+.section {
+    margin-top: 4rem;
+
+}
+
+.section:last-of-type {
+    padding-bottom: 4rem;
+}
+
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: url('images/bannerimage.jpg');
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    height: 350px;
+}
+
+.janu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* text css above hero image*/
+.hero_title {
+    padding-top: 10rem;
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero_text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+.navbarDark {
+    background: #000;
+}
+
+.navb {
+    background-color: black;
+}
+
+/*------------------about me-------------------*/
+.skills {
+    font-size: 5vh;
+    color: #ffc400;
+    text-align: center;
+}
+
+.btn1 {
+    display: block;
+    width: 50vh;
+    height: 3vh;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: background 0.5s;
+    text-align: center;
+    padding: 5px;
+    background-color: #00f7ff;
+    font-size: 10px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.bt1 {
+    width: 35vh;
+}
+
+.bt2 {
+    width: 20vh;
+}
+
+.bt3 {
+    width: 47vh;
+}
+
+.bt4 {
+    width: 44vh;
+}
+
+.lang {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    margin: 0px;
+}
+
+.image_about {
+    width: 90%;
+    height: 118vh;
+}
+
+
+/*------------srvices----------------*/
+#services {
+    padding: 30px 0;
+    margin: 30px;
+}
+
+
+.services-list {
+    display: grid;
+    grid-gap: 40px;
+    margin-top: 50px;
+    margin-left: 30vh;
+    width: 75%;
+    height: 20%;
+}
+
+
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+    color: white;
+    background: #262626;
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-color {
+    color: white;
+}
+
+.card-body a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.servicesText:hover {
+    border: 1px solid #11ecda;
+    background: rgb(77, 74, 74);
+    transform: translateY(-10px);
+}
+
+.card:hover .servicesIcon {
+    color: #11ecda;
+}
+
+/*-------------------portfolio-----------------*/
+.card-title1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.card-text1 {
+    color: rgb(0, 0, 0);
+}
+
+.card-img-top {
+    height: 49vh;
+}
+
+.card1 {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card1 img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.card-body1 {
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(235, 250, 22, 0.6), #04b8ff);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.card-body1 h4 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.card-body1 a {
+    margin-top: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.link-b {
+    text-align: center;
+}
+
+.card1:hover img {
+    transform: scale(1.1);
+}
+
+.card1:hover .card-body1 {
+    height: 100%;
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ffffff;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.5s;
+    text-align: center;
+    padding: 5px;
+}
+
+.btn:hover {
+    background: #ccc7cb;
+}
+
+/*---------------contact----------------*/
+.contact-left p i {
+    padding: 10px;
+    color: #00ff22;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.contact-left p a {
+    text-decoration: none;
+
+}
+
+/*----------------footer----------------*/
+
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-twitch:hover {
+    color: #4751df;
+}
+
+.fab {
+    color: #ffffff;
+    size: 40px;
+}
+
+.about-total {
+    background-image: url("images/BGI.jpg");
+    color: white;
+}
+
+/*-------------css for small screens---------------*/
+@media only screen and (max-width: 400px) {
+    .bannerBgImage {
+        background-image: url("https://www.google.com/search?q=dark+laptop+images+for+phone+screen&tbm=isch&chips=q:dark+laptop+images+for+phone+screen,online_chips:mobile+wallpaper&rlz=1C1CHBF_enIN1048IN1048&hl=en-GB&sa=X&ved=2ahUKEwjyttnq3oaAAxUSkWMGHWvVDukQ4lYoC3oECAEQQQ&biw=994&bih=640#imgrc=ViRxUxXOUe5iVM");
+        width: 50vh;
+    }
+
+    .about-total {
+        background-image: url("images/BGI.jpg");
+        width: 100%;
+    }
+
+    .aboutme {
+        flex-direction: column;
+    }
+
+    .bar {
+        width: auto;
+    }
+
+    .services-list {
+        margin-left: 15px;
+    }
+
+    .card-body {
+        size: 40px;
+        margin-left: 0%;
+    }
+
+   
+    .navb {
+        width: auto;
+        height: auto;
+    }
+
+    .ser-cont {
+        margin-top: 50px;
+    }
+}
